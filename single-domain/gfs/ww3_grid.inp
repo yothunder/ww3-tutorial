@@ -1,0 +1,49 @@
+$ WAVEWATCH TESTS
+ 'GFS wind grid (0.25 degrees)'
+$
+ 1.1 0.0418 3 4 0.5
+$
+ F T T T T T
+$
+ 3600 1800 1800 30
+$
+ &SIN4 TAUWSHELTER = 0 /
+$
+END OF NAMELISTS
+$
+$ 'RECT' T 'SMPL'
+$ 1440 721 
+$ 0.25 0.25 1.
+$ 0.0 -90.0 1.
+
+ 'RECT' T 'NONE'
+  61  61
+   0.1 0.1 1.
+ 102. -8.  1. 
+$ 'RECT': Specifies a rectangular grid, true coordinates, Simple grid closure
+$ 1440 points in longitude, 721 points in latitude
+$ 0.25 degrees latitude and longitude
+$ 0.0 longitude, -90.0 latitude
+
+ -0.10   2.50  10  -1000.  2  1 '(....)'  'UNIT'  'dummy'
+$ -0.10 might refer to a bottom friction coefficient or damping factor.
+$ 2.50 could represent a threshold for a specific process (e.g., wave breaking).
+$ 10 might relate to the number of vertical or spectral layers.
+$ -1000. could represent a depth cutoff.
+$ 2 and 1 could be boundary condition flags.
+$ '(....)' 'UNIT' 'dummy': Placeholder names or unit labels for specific grid parameters, often filled in later by the model.
+$
+  1038240*1
+               10          3  1 '(....)'  'PART'  'dummy'
+$ 1038240*1: Defines that 1 is assigned to 1,038,240 grid points 
+$ 10 3 1 '(....)' 'PART' 'dummy': These may be additional numerical parameters for part of the grid setup or boundary conditions, depending on how the bathymetry is modeled or the land/sea mask is applied.
+$
+ 0    0    F
+ 0    0    F
+ 0    0
+$ These are likely boundary condition settings for the model grid. The 0 values may indicate no specific forcing or constraints at the boundaries, and the F indicates false, possibly disabling a boundary condition (such as no-flux or no-reflection boundaries).
+$
+ 0.    0.    0.    0.       0
+$ This line defines spectral boundary conditions, possibly for wave energy influx or other spectral settings, with each value set to 0 for this particular run.
+$
+$ End of ww3_grid.inp
