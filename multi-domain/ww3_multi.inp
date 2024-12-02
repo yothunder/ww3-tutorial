@@ -1,0 +1,38 @@
+$ WAVEWATCH III multi for Sunda
+$
+  2 1 F 1 F T
+$
+  'ofs' F F T F F F F F F
+$
+  'sunda1'  'no' 'no' 'ofs' 'no' 'no' 'no' 'no' 'no' 'no'   1  1  0.00 1.00  F
+  'sunda2'  'no' 'no' 'ofs' 'no' 'no' 'no' 'no' 'no' 'no'   2  1  0.00 1.00  F
+$
+ 20241125 000000 20241128 000000
+$
+ F F
+$
+$ Field Output
+ 20241125 000000 3600 20241128 000000
+$
+ N
+ WND HS LM T02 T0M1 T01 DIR DP PHS PTP PDIR
+$ Point output, still needed
+ 20151203 000000 0 20141208 000000
+$ -0.25 -0.25 'Land      '
+$  0.0   0.0  'Point_1   '
+$  0.0   0.0  'STOPSTRING'
+$ Track Output
+ 20151203 000000 0 20141208 000000
+$ Restart file
+ 20241125 120000  1 20241125 120000
+$ Nest output
+ 20150726 000000 0 20150726 000000
+$ PArtition data
+ 20141203 000000 0 20141208 000000
+$
+ 'the_end' 0
+$
+ 'STP'
+$ 
+$End of ww3_multi.inp
+$
