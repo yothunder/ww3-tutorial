@@ -151,9 +151,9 @@ $
   81     81
    0.05   0.05   1.
  103.    -8.    1.
-  -0.1    2.50 20  0.001000 1 1 '(....)' NAME 'sunda_nest.depth'
-               30  0.010000 1 1 '(....)' NAME 'sunda_nest.obs'
-               40           1 1 '(....)' NAME 'sunda_nest.mask'
+  -0.1    2.50 20  0.001000 1 1 '(....)' NAME 'sunda_5km.depth'
+               30  0.010000 1 1 '(....)' NAME 'sunda_5km.obs'
+               40           1 1 '(....)' NAME 'sunda_5km.mask'
 $
  0. 0. 0. 0. 0
 $
