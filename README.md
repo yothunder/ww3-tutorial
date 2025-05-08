@@ -27,6 +27,7 @@ Running real case for nested domains (2 domains) using `ww3_multi`.
 
 ## Directory structure
 
+```bash
 ww3-case/
 ├── multi-domain/
 │   ├── era5/
@@ -76,3 +77,4 @@ ww3-case/
 │   ├── gx_outf.inp
 │   └── README.md
 └── README.md
+```
