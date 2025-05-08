@@ -8,15 +8,17 @@ We assume that users have installed the WW3 model on their own computers. Otherw
 
 1. WAVEWATCH III® installed on the system
 2. Libraries
-    a. NETCDF
-    b. HDF5
-    c. OPENMP & MPI
+    - NETCDF
+    - HDF5
+    - OPENMP & MPI
 3. Python for pre and post processing, with the following packages:
-    a. numpy
-    b. xarray
-    c. netcdf4
-    d. cdsapi
-    e. pygrib
+    - numpy
+    - xarray
+    - pandas
+    - netcdf4
+    - cdsapi
+    - pygrib
+    - xgrads
 
 ## Case Studies
 ### 1. Single domain
