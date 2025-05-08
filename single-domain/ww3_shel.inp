@@ -27,8 +27,8 @@ $   F F    Mud parameter 3
 $ - Starting time in yyyymmdd hhmmss format.
 $ - Ending time in yyyymmdd hhmmss format.
 $
-   20241125 000000 
-   20241128 000000
+   20250508 000000 
+   20250511 000000
 $
 $ Define output data ------------------------------------------------- $
 $
@@ -65,7 +65,7 @@ $          the total number and order of the logical flags is fixed.
 $                               The raw data file is out_grd.ww3,
 $                               see w3iogo.ftn for additional doc.
 $
-   20241125 000000   3600  20241128 000000
+   20250508 000000   3600  20250511 000000
 $----------------------------------------------------------------
 $ Output request flags identifying fields.
 $

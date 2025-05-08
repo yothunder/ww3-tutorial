@@ -2,10 +2,10 @@ $ WAVEWATCH III multi for Sunda
 $
   2 1 F 1 F T
 $
-  'ofs' F F T F F F F F F
+  'era5' F F T F F F F F F
 $
-  'sunda1'  'no' 'no' 'ofs' 'no' 'no' 'no' 'no' 'no' 'no'   1  1  0.00 1.00  F
-  'sunda2'  'no' 'no' 'ofs' 'no' 'no' 'no' 'no' 'no' 'no'   2  1  0.00 1.00  F
+  'sunda_11km'  'no' 'no' 'era5' 'no' 'no' 'no' 'no' 'no' 'no'   1  1  0.00 1.00  F
+  'sunda_5km'  'no' 'no' 'era5' 'no' 'no' 'no' 'no' 'no' 'no'   2  1  0.00 1.00  F
 $
  20241125 000000 20241128 000000
 $
